@@ -1,0 +1,113 @@
+body{
+	font-family: arial;
+	text-align: center;
+}
+
+/*Pour le titre principal : 
+- La couleur en vert clair
+- Taille de police à 34px*/
+h1{
+	color: lightgreen;
+	font-size: 34px;
+	font-family: arial;
+	background: yellow;
+}
+
+.color-lightgreen{
+	color: lightgreen;
+}
+
+/*Pour les sous titres : 
+- La couleur en vert
+- Taille de police à 24px*/
+h2, h3, h4 {
+	color: green;
+	font-size: 24px;
+}
+
+/*h3{
+	color: green;
+	font-size: 24px;
+}
+
+h4{
+	color: green;
+	font-size: 24px;
+}*/
+
+.text-left{
+	text-align: left;
+
+}
+
+.avatar{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.green-frame{
+	background: pink;
+	border: 5px solid black;
+	border-radius: 30px;
+	padding: 20px;
+	box-shadow: 4px 5px 10px grey;
+}
+
+.margin-100 {
+	margin: 50px;
+}
+
+.margin-50-px-right {
+	margin-right: 50px;
+}
+
+.prod{
+	width: 300px;
+	height: 200px;
+}
+
+.btn-pink{
+	display: inline-block;
+  background: pink;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  border: 5px solid black;
+  text-decoration: none;
+}
+
+.btn-pink:hover {
+	background: grey;
+}
+
+.line-transparent{
+	background: bold;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.line-dark{
+	height: 10px;
+	width: 50%;
+	background: #9F3544;
+}
+
+.line-medium{
+	height: 10px;
+	width: 30%;
+	background: #EE9DA8;
+}
+
+.line-light{
+	height: 10px;
+	width: 20%;
+	background: #FBE4E7;
+}
+
+.two-sections {
+	display: flex;
+}
