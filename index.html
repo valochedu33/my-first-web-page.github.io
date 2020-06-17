@@ -1,80 +1,323 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>HELLO</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>Bougies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="text-center">
 
-	<div class="line-transparent">
-		<div class="line-dark"></div>
-		<div class="line-medium"></div>
-		<div class="line-light"></div>
-	</div>
+  <div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
 
-<div class="navbar">
-	<img src="images/logo.png" class="logo">
-	<div class="links">
-		<a href="" class="link">Présentation</a>
-		<a href="" class="link">Team</a>
-		<a href="" class="link">Contact</a>
-	</div>
-</div>
+  <div class="my-navbar">
+    <a href="index.html">
+      <img src="images/logo.png" class="logo">
+    </a>
+    <div class="links">
+      <a href="#presentation" class="link">Présentation</a>
+      <a href="team.html" class="link">Team</a>
 
-<div class="green-frame margin-100">
-  <h1 class="color-lightgreen">  Hello la team</h1>
-  <h2>Qu'est ce que le mojito ? </h2>
-  <p><b>Le mojito</b> prononcé [moˈxito] en espagnol, ou <i>mojito, morito, ou mohito</i> en français, est un  <strong>cocktail traditionnel</strong> de la cuisine cubaine et de la culture de Cuba, à base de rhum, de soda, de citron vert, et de feuilles de menthe fraîche.</p>
-</div>
+      <!-- Button trigger modal -->
+      <button type="button" class="my-btn-bleu1" data-toggle="modal" data-target="#exampleModal">
+        Contact
+      </button>
 
-<div class="green-frame margin-100">
-  <h3>Ma vidéo</h3>
-  <iframe width="840" height="473" src="https://www.youtube.com/embed/qoBhhTcIKNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h3 class="color-green m-4">Valentine</h3>
+              <a href="mailto:contact@mihivai.com" target="_blanck"><i class="fas fa-envelope"></i> : contact@bougies.com</a>
+              <br>
+              <a href="tel:0618237331" target="_blanck"><i class="fas fa-phone-square-alt"></i> : 06 83 04 78 04</a>
+              <div>
+                <a class="socials" href="">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a class="socials" href="">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a class="socials" href="">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
 
-<div class="two-sections margin-100 ">
-  <div class="green-frame text-left margin-50-px-right">
-    <h4>Ingrédients</h4>
-    <ul>
-	   <li>Rhum</li>
-	   <li>Menthe</li>
-	   <li>Sucre</li>
-    </ul>
-</div>
 
-  <div class="green-frame text-left">
-    <ol>
-	   <li>Etape 1 : Piler la glace</li>
-	   <li>Etape 2 : verser le rhum</li>
-    </ol>
+    </div>
+  </div>
+
+
+
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url(images/bougie2.jpg);">
+    <div class="container">
+      <h1 class="color-green">La sélection de bougies !</h1>
+      <h2 class="color-green">By Valentine</h2>
+      <br>
+      <a href="https://www.marieclaire.fr/idees/fabriquer-ses-bougies,1071501.asp#:~:text=Rien%20de%20plus%20simple%2C%20il,pour%20faire%20une%20bougie%20facilement." target="_blanck" class="my-btn-bleu">En savoir plus</a>
+    </div>
+  </div>
+
+  <div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
+
+
+  <div id="presentation"></div>
+
+  <div class="cadre">
+    <h3 class="color-green m-4">Qui suis-je ?</h3>
+    <p><b>Valentine de Luze</b> étudiante à l'EFAP Bordeaux. J'ai 20 ans et je suis en deuxième années d'école de communication. J'adore collectionner des bougies. Et c'est pour cela, que je vais vous partager une sélection de toutes mes bougies préférées. Juste au dessus à "En savoir plus", vous retrouverez un article pour savoir comment faire ses propres bougies. J'espère que cette page vous plaiera.
+    </p>
+  </div>
+
+  <div class="cadre">
+    <h3 class="color-green m-4">Comment créer sa propre bougie ?</h3>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/kksXZpHq1Rs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="horizontal-position">
+
+    <div class="cadre-ingredients text-left">
+    <h4  class="color-green">Ingredients</h4>
+      <ul>
+        <li> Un petit pot en verre de type pot de confiture récup'.</li>
+        <li> De la cire d'abeille (on en trouve dans les magasins bio et chez les apiculteurs).</li>
+        <li> Une mèche (ou un fil de coton).</li>
+        <li> Une casserole (ou un accessoire pour bain-marie).</li>
+        <li> 80 g de beurre (ou 8 cuillères à soupe d'huile)</li>
+        <li> Des pics à brochettes en bois (ou des crayons).</li>
+        <li> Facultatif : quelques gouttes d'huiles essentielles ayant un point éclair supérieur à 65°C.</li>
+      </ul>
+    </div>
+
+    <div class="cadre-preparartion text-left">
+      <h4 class="color-green">Préparation</h4>
+      <ol>
+        <li>
+          <p><b>Etape 1</b> :
+             Insérer les copeaux de cire dans le petit pot en verre.
+          </p>
+        </li>
+        <li>
+          <p><b>Etape 2</b> :
+            Placer dans une casserole au bain-marie et faire fondre jusqu'à ce que la cire se liquéfie.
+          </p>
+        </li>
+        <li>
+          <p><b>Etape 3</b> :
+            Retirer le pot du bain marie. Si vous avez choisi d'ajouter des huiles essentielles, c'est le moment de les insérer.
+          </p>
+        </li>
+        <li>
+          <p><b>Etape 4</b> :
+            Tremper la mèche dans la cire et la maintenir au centre à l'aide des pics à brochettes (ou des crayons).
+          </p>
+        </li>
+        <li>
+          <p><b>Etape 5</b> :
+             Laisser reposer 3 heures minimum dans un endroit frais. La cire va se figer.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="cadre">
+    <h3 class="color-green m-4">Où trouver de belles bougies sur Bordeaux?</h3>
+    <div class="d-flex justify-content-between">
+
+
+      <!-- Begin Mailchimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="https://a-waree.us15.list-manage.com/subscribe/post?u=9ef09dfae3eb2da317e4e3b49&amp;id=acb7df8fb7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <h2 class="color-black">Souscrire à notre newsletter</h2>
+          <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+          <div class="mc-field-group">
+            <label for="mce-EMAIL">Email<span class="asterisk">*</span></label>
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-FNAME">Nom de famille</label>
+            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-LNAME">Prénom</label>
+            <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+          </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9ef09dfae3eb2da317e4e3b49_acb7df8fb7" tabindex="-1" value=""></div>
+            <div class="clear">
+              <input type="submit" value="Souscrire" name="subscribe" id="mc-embedded-subscribe" class="my-btn-bleu">
+            </div>
+          </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11315.680267910124!2d-0.5814700042732237!3d44.843561172538806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527dca015ce39%3A0xbc5bd597648d811c!2sLa%20Parfumerie%20Bordelaise!5e0!3m2!1sfr!2sfr!4v1592387757421!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
+
+
+
+
+  <div class="cadre">
+
+    <h3 class="color-green m-4">Bougies à acheter</h3>
+    <div class="d-flex justify-content-between">
+      <div class="card" style="width: 18rem;">
+        <img src="images/bougie3.png" class="card-img-top" alt="images/bougie3.png">
+        <div class="card-body">
+          <h5 class="card-title">Ralph Lauren</h5>
+          <p class="card-text">La bougie classique des fêtes.<br>Essayez la!</p>
+          <a href="#" class="my-btn-bleu1">Plus d'infos ici</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/bougie4.jpg" class="card-img-top" alt="images/bougie4.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Diptyque</h5>
+          <p class="card-text">La bougie indispensable, à avoir chez soi.<br>Essayez la!</p>
+          <a href="#" class="my-btn-bleu1">Plus d'infos ici</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/bougie5.png" class="card-img-top" alt="images/bougie5.png">
+        <div class="card-body">
+          <h5 class="card-title">Rituals</h5>
+          <p class="card-text">Idéal pour offrir. N'attendez pas !<br>Essayez la!</p>
+          <a href="#" class="my-btn-bleu1">Plus d'infos ici</a>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="color-green m-4">Achat en ligne</h3>
+
+    <a class="my-btn-bleu1" class="typeform-share button btn-pink" href="https://form.typeform.com/to/dnaMYkPt" data-mode="popup" target="_blank">Achetez ici</a>
+
+  </div>
+
+  <div class="machine">
+    <div id="belt-container" class="belt-container"></div>
+  </div>
+
+  <div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
+
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript'>
+    (function($) {
+      window.fnames = new Array();
+      window.ftypes = new Array();
+      fnames[0]='EMAIL';
+      ftypes[0]='email';
+      fnames[1]='FNAME';
+      ftypes[1]='text';
+      fnames[2]='LNAME';
+      ftypes[2]='text';
+      fnames[3]='ADDRESS';
+      ftypes[3]='address';
+      fnames[4]='PHONE';
+      ftypes[4]='phone';
+    }(jQuery));
+    var $mcj = jQuery.noConflict(true);
+  </script>
+
+  <script src="https://kit.fontawesome.com/18ee24e4d3.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+    (function() {
+      var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/";
+      if(!gi.call(d,id)){
+        js=ce.call(d,"script");
+        js.id=id;
+        js.src=b+"embed.js";
+        q=gt.call(d,"script")[0];
+        q.parentNode.insertBefore(js,q)
+      }
+    })()
+  </script>
+
+  <script>
+    let beltCont = $('#belt-container')
+
+    for(let i=1; i <= 150; i++) {
+
+        <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+  <div class="container">
+    <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
+    <p>Change your life and learn to code at one of our campuses around the world.</p>
+    <a class="btn btn-flat" href="#">Apply now</a>
   </div>
 </div>
 
 
-<div class="green-frame margin-100">
-  <img class="avatar" src="images/mojito.jpg" width="300px">
-</div>
+        layerOne.css({
+           backgroundColor: 'hsl(' + Math.floor(Math.random() * i * 50) + ', 30%, 60%'
+        });
 
-<br>
+        layerTwo.css({
+           backgroundColor: 'hsl(' + Math.floor(Math.random() * i * 50) + ', 60%, 35%'
+        });
 
-<a href="https://www.marmiton.org/recettes/recette_mojito_14615.aspx" target="_blank" class= "btn-pink">Mon 1er lien</a>
+        topping.css({
+           backgroundColor: 'hsl(' + Math.floor(Math.random() * i * 25) + ', 50%, 50%'
+        });
 
-<a href="">Mon 2eme lien </a>
+        belt.addClass('belt');
+        cake.addClass('cake');
+        layerOne.addClass('layer layer-1');
+        filling.addClass('filling');
+        layerTwo.addClass('layer layer-2');
+        topping.addClass('layer topping');
+        candle.addClass('candle');
 
-<div class="green-frame margin-100">
-	<h3>Vos productions</h3>
-	<img class="prod" src="images/mojito2.jpg">
-	<img class="prod" src="images/mojito3.jpg">
-	<img class="prod" src="images/mojito4.jpg">
-</div>
+        belt.css({
+          left: 1 * i * 150
+        });
 
-<div class="green-frame margin-100">
-	<h3></h3>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11315.718319820448!2d-0.5796533646240725!3d44.84336744527205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527d94e08ceb5%3A0x8a6bd45e5ed4a440!2sBoulangerie%20Paul!5e0!3m2!1sfr!2sfr!4v1589548630999!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        cake.append(layerOne, filling, layerTwo, topping, candle);
+        belt.append(cake);
 
-</div>
+        beltCont.append(belt);
+
+    }
+  </script>
+
+
 </body>
 </html>
